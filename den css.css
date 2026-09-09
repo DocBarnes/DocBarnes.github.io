@@ -1,0 +1,295 @@
+
+@media (min-width:768px) {
+body {
+background: url(https://i.pinimg.com/564x/b0/8e/16/b08e16e48ddca2e67d499d03b2e75ff6.jpg) center center fixed !important;
+background-repeat: no-repeat;
+background-size: 100%;
+color: #B9C3BD !important;
+font-family: 'Playfair Display';
+}
+}
+
+.col-md-9.col-xs-12 {
+background: rgba(18, 53, 36, 0.1) !important; /*Phthalo Green*/
+border: none !important;
+border-top: none !important;
+border-right: none !important;
+border-bottom :none !important;
+box-shadow: none !important;
+}
+/*Background of main page (where pride info is. Note that this sits on top of div.container.main)
+Does not cover player info like div.container.main does*/
+
+div.container.main {
+background: rgba(18, 53, 36, 0.5) !important;
+border: none !important;
+border-left: none !important;
+box-shadow: none !important;
+}
+/*behind the background. If this is not transparent, the base will not be transparent*/
+
+
+@media (max-width: 768px) {
+body {
+background: url(https://i.pinimg.com/564x/b0/8e/16/b08e16e48ddca2e67d499d03b2e75ff6.jpg') center center fixed !important;
+background-repeat: no-repeat;
+background-size: 100%;
+width: auto !important;
+min-width: 600px !important;
+color: #B9C3BD !important;
+font-family: 'Playfair Display';
+}
+}
+/*All above is for the background (pine pattern). The "color" prefix sets color of text*/
+
+.topbar{
+background: rgb(40, 71, 55) !important;
+border: none !important;
+border-top: none !important;
+border-bottom: none !important;
+box-shadow: none !important;
+color:#B9C3BD !important;
+}
+
+.topbar li a{
+color: #B9C3BD !important;
+}
+
+.topbar li a:hover{
+color:#0A2518 !important;
+}
+/*for the top bar. "li a" means text link color, and "li a:hover" means text when hovered over*/
+
+.navbar{
+background: rgb(40, 71, 55) !important;
+border: none !important;
+border-bottom: none !important;
+border-top: none !important;
+border-right: none !important;
+box-shadow: none !important;
+font-family: 'Playfair Display';
+}
+
+.navbar li a{
+color: #B9C3BD !important;
+}
+
+.navbar li a:hover{
+background: #123524 !important;
+}
+/*Navbar, nav text color, and nav hover color*/
+
+.breadcrumb{
+background: rgb(40, 71, 55) !important;
+border: 2px solid #04150C !important;
+color: #B9C3BD !important;
+}
+
+.breadcrumb li a{
+color: #B9C3BD !important;
+}
+
+.breadcrumb li a:hover{
+color:#0A2518 !important;
+}
+.breadcrumb .active {
+color: #B9C3BD !important;
+}
+/*The breadcrumb (where it says "Home/Names den")*/
+
+h1{
+color: #B9C3BD !important;
+}
+
+.table{
+background: rgb(40, 71, 55) !important;
+border: 2px solid #04150C !important;
+}
+
+.table th{
+background: rgb(7, 29, 18) !important;
+color: #B9C3BD !important;
+}
+
+.b.center {
+background: #0A2518 !important;
+color: #B9C3BD !important;
+}
+/*Event notification*/
+
+.top.center{
+background:rgb(7, 29, 18)!important;
+color: #B9C3BD !important;
+}
+
+.top.center li a{
+color: #B9C3BD !important;
+}
+
+.b .bigger{
+color: #B9C3BD !important;
+}
+
+.h3{
+color: #B9C3BD !important;
+font-family: 'Playfair Display' !important;
+}
+.table .bottom {
+background:rgb(7, 29, 18)!important;
+}
+
+#about .auto .right {
+background: rgb(7,29,10);
+border: 2px solid #04150C !important;
+border-left: none !important;
+}
+#about .auto .right a{
+color: #B9C3BD !important; 
+}
+
+#player .top {
+background:rgb(7, 29, 18)!important;
+}
+#player .xlarge .text-muted {
+color: #B9C3BD !important; 
+}
+#player .center.xlarge a {
+color: #B9C3BD !important; 
+}
+#player .center.xlarge a:hover {
+color: rgb(7,29,10) !important; 
+}
+#player .auto .right {
+background:rgb(7, 29, 18)!important;
+border: 2px solid #04150C !important;
+border-left: none !important;
+}
+.right_odd {
+background:rgb(40, 71, 55)!important;
+color:#B9C3BD !important;
+}
+
+.feature {
+background: rgb(40, 71, 55) !important;
+color:#B9C3BD !important;
+border: 2px solid  #04150C !important;
+}
+.feature h3 {
+color:#B9C3BD !important;
+}
+
+#allies .top {
+background:rgb(7, 29, 18)!important;
+}
+#allies .bigger{
+color: #B9C3BD !important;
+}
+#allies .bigger:hover{
+color: rgb(7,29,10) !important;
+}
+#allies .small a {
+color: #B9C3BD !important;
+}
+#allies .small a:hover{
+color: rgb(7,29,10) !important;
+}
+#allies .left {
+background: rgb(7, 29, 18)!important;
+}
+
+#clans .top {
+background:rgb(7, 29, 18)!important;
+}
+#clans .bigger {
+color: #B9C3BD !important;
+}
+#clans .bigger:hover{
+color: rgb(7,29,10) !important;
+}
+#clans .left {
+background: rgb(7, 29, 18)!important;
+}
+
+.left h3 {
+color: #B9C3BD !important;
+}
+.left h3:hover{
+color: rgb(7,29,10) !important;
+}
+.left{
+background: rgb(40, 71, 55) !important;
+}
+
+div .left {
+color: #B9C3BD !important;
+border: 2px solid  #04150C !important;
+}
+div .left:hover {
+color: rgb(7,29,10) !important;
+}
+
+form div.left a{
+color: #B9C3BD !important;
+}
+form div.left a:hover{
+color: rgb(7,29,10) !important;
+}
+th a {
+color: #B9C3BD !important;
+}
+th a:hover{
+color: #B9C3BD !important; !important;
+}
+
+#fraCaveList .cave-grid {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+color: #B9C3BD !important;
+}
+#fraCaveList .cave-grid:hover {
+color: rgb(7,29,10) !important;
+}
+#fraOrganizationBlock > .center .cave-grid {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+color: #B9C3BD !important;
+}
+#fraOrganizationBlock > .center .cave-grid:hover{
+color: rgb(7,29,10) !important;
+}
+
+.mound-grid {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+color: #B9C3BD !important;
+}
+.mound-grid:hover{
+color: rgb(7,29,10) !important;
+}
+
+.panel {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+box-shadow: none !important;
+}
+.panel a {
+color: #B9C3BD !important;
+}
+.panel a:hover{
+color: rgb(7,29,10) !important;
+}
+
+.sidebar h3 {
+color: #B9C3BD !important;
+}
+.sidebar h3:hover {
+color: #E5E9E6 !important;
+}
+
+.sidebar h3 a{
+color: #B9C3BD !important;
+}
+.sidebar h3 a:hover {
+color: #E5E9E6 !important;
+}
+
