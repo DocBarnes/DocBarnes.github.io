@@ -376,10 +376,10 @@ background: rgb(40, 71, 55) !important;
 color: #B9C3BD !important;
 }
 
-a.s-chat_username {
+.s-chat_username li a{
 color: #B9C3BD !important;
 }
-a.s-chat_username:hover {
+.s-chat_username li a:hover {
 color: #B9C3BD !important;
 }
 /*Circular Lion/User Avatar: div#lion_image{
