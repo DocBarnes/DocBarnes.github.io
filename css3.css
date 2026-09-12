@@ -337,7 +337,7 @@ color: #B9C3BD !important;
 }
 /*pinged / @ messages*/
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background: #1D3512!important;
+background: #353012 !important;
 border: none !important;
 }
 /*message timestamps*/
