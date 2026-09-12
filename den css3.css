@@ -1,0 +1,440 @@
+@media (min-width:768px) {
+body {
+background: url(https://i.pinimg.com/564x/b0/8e/16/b08e16e48ddca2e67d499d03b2e75ff6.jpg) center center fixed !important;
+background-repeat: no-repeat;
+background-size: 100%;
+color: #B9C3BD !important;
+font-family: 'Playfair Display';
+}
+}
+
+.col-md-9.col-xs-12 {
+background: rgba(18, 53, 36, 0.1) !important; /*Phthalo Green*/
+border: none !important;
+border-top: none !important;
+border-right: none !important;
+border-bottom :none !important;
+box-shadow: none !important;
+}
+/*Background of main page (where pride info is. Note that this sits on top of div.container.main)
+Does not cover player info like div.container.main does*/
+
+div.container.main {
+background: rgba(18, 53, 36, 0.5) !important;
+border: none !important;
+border-left: none !important;
+box-shadow: none !important;
+}
+/*behind the background. If this is not transparent, the base will not be transparent*/
+
+
+@media (max-width: 768px) {
+body {
+background: url(https://i.pinimg.com/564x/b0/8e/16/b08e16e48ddca2e67d499d03b2e75ff6.jpg') center center fixed !important;
+background-repeat: no-repeat;
+background-size: 100%;
+width: auto !important;
+min-width: 600px !important;
+color: #B9C3BD !important;
+font-family: 'Playfair Display';
+}
+}
+/*All above is for the background (pine pattern). The "color" prefix sets color of text*/
+
+.topbar{
+background: rgb(40, 71, 55) !important;
+border: none !important;
+border-top: none !important;
+border-bottom: none !important;
+box-shadow: none !important;
+color:#B9C3BD !important;
+}
+.welcomeback a {
+color:#B9C3BD !important;
+}
+.welcomeback a:hover{
+color:#0A2518 !important;
+}
+center > .table .right > a {
+color: #B9C3BD !important;
+}
+center > .table .right > a:hover {
+color: #0A2518 !important;
+}
+.topbar li a{
+color: #B9C3BD !important;
+}
+
+.topbar li a:hover{
+color:#0A2518 !important;
+}
+/*for the top bar. "li a" means text link color, and "li a:hover" means text when hovered over*/
+
+.navbar{
+background: rgb(40, 71, 55) !important;
+border: none !important;
+border-bottom: none !important;
+border-top: none !important;
+border-right: none !important;
+box-shadow: none !important;
+font-family: 'Playfair Display';
+}
+
+.navbar li a{
+color: #B9C3BD !important;
+}
+
+.navbar li a:hover{
+background: #123524 !important;
+}
+/*Navbar, nav text color, and nav hover color*/
+
+.breadcrumb{
+background: rgb(40, 71, 55) !important;
+border: 2px solid #04150C !important;
+color: #B9C3BD !important;
+}
+
+.breadcrumb li a{
+color: #B9C3BD !important;
+}
+
+.breadcrumb li a:hover{
+color:#0A2518 !important;
+}
+.breadcrumb .active {
+color: #B9C3BD !important;
+}
+/*The breadcrumb (where it says "Home/Names den")*/
+
+h1{
+color: #B9C3BD !important;
+}
+
+.table{
+background: rgb(40, 71, 55) !important;
+border: 2px solid #04150C !important;
+}
+
+.table th{
+background: rgb(7, 29, 18) !important;
+color: #B9C3BD !important;
+}
+
+.b.center {
+background: #0A2518 !important;
+color: #B9C3BD !important;
+}
+/*Event notification*/
+
+.top.center{
+background:rgb(7, 29, 18)!important;
+color: #B9C3BD !important;
+}
+
+.top.center li a{
+color: #B9C3BD !important;
+}
+
+.b .bigger{
+color: #B9C3BD !important;
+}
+
+.h3{
+color: #B9C3BD !important;
+font-family: 'Playfair Display' !important;
+}
+.table .bottom {
+background:rgb(7, 29, 18)!important;
+}
+
+#about .auto .right {
+background: rgb(7,29,10);
+border: 2px solid #04150C !important;
+border-left: none !important;
+}
+#about .auto .right a{
+color: #B9C3BD !important; 
+}
+
+#player .top {
+background:rgb(7, 29, 18)!important;
+}
+#player .xlarge .text-muted {
+color: #B9C3BD !important; 
+}
+#player .center.xlarge a {
+color: #B9C3BD !important; 
+}
+#player .center.xlarge a:hover {
+color: rgb(7,29,10) !important; 
+}
+#player .auto .right {
+background:rgb(7, 29, 18)!important;
+border: 2px solid #04150C !important;
+border-left: none !important;
+}
+.right_odd {
+background:rgb(40, 71, 55)!important;
+color:#B9C3BD !important;
+}
+
+.feature {
+background: rgb(40, 71, 55) !important;
+color:#B9C3BD !important;
+border: 2px solid  #04150C !important;
+}
+.feature h3 {
+color:#B9C3BD !important;
+}
+
+#allies .top {
+background:rgb(7, 29, 18)!important;
+}
+#allies .bigger{
+color: #B9C3BD !important;
+}
+#allies .bigger:hover{
+color: rgb(7,29,10) !important;
+}
+#allies .small a {
+color: #B9C3BD !important;
+}
+#allies .small a:hover{
+color: rgb(7,29,10) !important;
+}
+#allies .left {
+background: rgb(7, 29, 18)!important;
+}
+
+#clans .top {
+background:rgb(7, 29, 18)!important;
+}
+#clans .bigger {
+color: #B9C3BD !important;
+}
+#clans .bigger:hover{
+color: rgb(7,29,10) !important;
+}
+#clans .left {
+background: rgb(7, 29, 18)!important;
+}
+
+.left h3 {
+color: #B9C3BD !important;
+}
+.left h3:hover{
+color: rgb(7,29,10) !important;
+}
+.left{
+background: rgb(40, 71, 55) !important;
+}
+
+div .left {
+color: #B9C3BD !important;
+border: 2px solid  #04150C !important;
+}
+div .left:hover {
+color: rgb(7,29,10) !important;
+}
+
+form div.left a{
+color: #B9C3BD !important;
+}
+form div.left a:hover{
+color: rgb(7,29,10) !important;
+}
+th a {
+color: #B9C3BD !important;
+}
+th a:hover{
+color: #B9C3BD !important; !important;
+}
+
+#fraCaveList .cave-grid {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+color: #B9C3BD !important;
+}
+#fraCaveList .cave-grid:hover {
+color: rgb(7,29,10) !important;
+}
+#fraOrganizationBlock > .center .cave-grid {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+color: #B9C3BD !important;
+}
+#fraOrganizationBlock > .center .cave-grid:hover{
+color: rgb(7,29,10) !important;
+}
+
+.mound-grid {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+color: #B9C3BD !important;
+}
+.mound-grid:hover{
+color: rgb(7,29,10) !important;
+}
+
+.panel {
+background: rgb(40, 71, 55) !important;
+border: 2px solid  #04150C !important;
+box-shadow: none !important;
+}
+.panel a {
+color: #B9C3BD !important;
+}
+.panel a:hover{
+color: rgb(7,29,10) !important;
+}
+
+.sidebar h3 {
+color: #B9C3BD !important;
+}
+.sidebar h3:hover {
+color: #E5E9E6 !important;
+}
+
+.sidebar h3 a{
+color: #B9C3BD !important;
+}
+.sidebar h3 a:hover {
+color: #E5E9E6 !important;
+}
+
+#commentBox .comment:nth-child(even){
+background: rgba(40, 71, 55,0.5) !important;
+color: #B9C3BD !important;
+}
+.commentText .text-muted {
+color: #B9C3BD !important; 
+}
+.commentText .text-muted a {
+color: #B9C3BD !important; 
+}
+.commentText .text-muted a:hover {
+color: #E5E9E6 !important;
+}
+
+/*even messages in chat*/
+.s-chat-message:nth-child(even) {
+background: rgb(40, 71, 55) !important;
+color: #E5E9E6 !important;
+border: none !important;
+}
+
+
+
+/*odd messages in chat*/
+.s-chat-message:nth-child(odd) {
+background: rgb(7, 29, 18)!important;
+color: #E5E9E6 !important;
+border: none !important;
+}
+
+
+
+/*pinned chat messages, news, event etc*/
+.s-chat-message__pinned {
+background: rgb(7, 29, 18)!important;
+color: #E5E9E6 !important;
+border: none !important
+}
+
+
+
+/*pinged / @ messages
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+    background-color: #ffcdcd !important;
+    border-left: none;
+}
+*/
+
+/*message timestamps*/
+.s-chat-message_timestamp {
+color: #E5E9E6 !important;
+}
+
+
+/*chat background*/
+html.nolayout body {
+background: rgb(7, 29, 18)!important;
+}
+
+
+/*chat channel button - main, role play, etc*/
+button#label_currentChannel {
+background: rgb(7, 29, 18)!important;
+color: #E5E9E6 !important;
+border: none !important;
+}
+
+
+/*chat channel button background behind text*/
+.s-chat-sidebar #fraChatChannelMenu {
+background: rgb(7, 29, 18)!important;
+border: none !important;
+box-shadow: none !important;
+cursor: default;
+padding: 2px;
+position: absolute;
+width: 140px;
+z-index: 99999999;
+}
+/*chat channel button once clicked*/
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: rgb(7, 29, 18)!important;
+color: #E5E9E6 !important;
+}
+
+
+/*chat channel button text colour*/
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #E5E9E6 !important;
+}
+/*Circular Lion/User Avatar: div#lion_image{
+border-radius: 50% !important;
+overflow: hidden;
+margin-top:15px;
+margin-left: 12px;
+}
+table#player img{
+border-radius: 50% !important;
+overflow: hidden;
+}
+
+Lioden Logo replacement: 
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img{
+content: url('logo replacement URL')
+}
+
+
+
+div.cave-grid>img  {
+
+    content: url('IMAGE URL') !important
+}
+
+a[href$="CAVE ID"]>div.cave-grid>img {
+    content: url('IMAGE URL') !important
+}
+
+a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img  {
+
+    content: url('IMAGE URL') !important
+}
+
+a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img  {
+
+    content: url('IMAGE URL') !important
+}
+
+.mound-grid img {
+    background: url("IMAGE URL");
+    width: 0;
+    height: 0;
+    padding-top: 80px;
+    padding-right: 130px
+}
+*/
