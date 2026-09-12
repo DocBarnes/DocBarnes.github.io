@@ -363,16 +363,16 @@ box-shadow: none !important;
 }
 /*chat channel button once clicked*/
 #fra_chatContainer .channelMenu .channelSwitcher.active {
-background: rgb(7, 29, 18)!important;
-color: #B9C3BD !important;
+background: rgb(40, 71, 55)!important;
+color: #E5E9E6 !important;
 }
 /*chat channel button text colour*/
 #fra_chatContainer .channelMenu .channelSwitcher {
 background: rgb(40, 71, 55) !important;
-color: #E5E9E6 !important;
+color: #B9C3BD !important;
 }
 #fra_chatContainer .channelMenu .channelSwitcher:hover {
-background: rgb(40, 71, 55) !important;
+background: rgb(7, 29, 18) !important;
 color: #E5E9E6 !important;
 }
 
