@@ -376,10 +376,13 @@ background: rgb(40, 71, 55) !important;
 color: #B9C3BD !important;
 }
 
-.s-chat_username li a{
-color: #B9C3BD !important;
+.s-chat-message a,
+.s-chat-message a:link,
+.s-chat-message a:visited {
+color: #E5E9E6 !important;
 }
-.s-chat_username li a:hover {
+
+.s-chat-message a:hover {
 color: #B9C3BD !important;
 }
 /*Circular Lion/User Avatar: div#lion_image{
