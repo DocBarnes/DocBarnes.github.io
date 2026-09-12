@@ -368,11 +368,11 @@ color: #E5E9E6 !important;
 }
 /*chat channel button text colour*/
 #fra_chatContainer .channelMenu .channelSwitcher {
-background: rgb(7, 29, 18)!important;
+background: rgb(40, 71, 55)!important;
 color: #E5E9E6 !important;
 }
 #fra_chatContainer .channelMenu .channelSwitcher:hover {
-background: rgb(40, 71, 55) !important;
+background: rgb(7, 29, 18) !important;
 color: #E5E9E6 !important;
 }
 
