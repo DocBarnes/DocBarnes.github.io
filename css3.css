@@ -337,19 +337,19 @@ border: none !important;
 
 /*pinned chat messages, news, event etc*/
 .s-chat-message__pinned {
-background: rgb(7, 29, 18)!important;
+background: rgb(40, 71, 55) !important;
 color: #E5E9E6 !important;
 border: none !important
 }
 
 
 
-/*pinged / @ messages
+/*pinged / @ messages*/
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-    background-color: #ffcdcd !important;
-    border-left: none;
+background: #1D3512!important;
+border-left: none;
 }
-*/
+
 
 /*message timestamps*/
 .s-chat-message_timestamp {
@@ -365,11 +365,16 @@ background: rgb(7, 29, 18)!important;
 
 /*chat channel button - main, role play, etc*/
 button#label_currentChannel {
-background: rgb(7, 29, 18)!important;
+background: rgb(40, 71, 55) !important;
 color: #E5E9E6 !important;
 border: none !important;
 }
 
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: rgb(40, 71, 55) !important;
+color: #B9C3BD !important;
+
+}
 
 /*chat channel button background behind text*/
 .s-chat-sidebar #fraChatChannelMenu {
