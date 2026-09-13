@@ -105,11 +105,12 @@ color:#0A2518 !important;
 .breadcrumb .active {
 color: #B9C3BD !important;
 }
+
 .breadcrumb::after {
     content: "CSS by Foxx (#515050)" !important;
     position: absolute;
     right: 20%;
-    z-index: 100;
+    z-index: 100 !important;
     color: #B9C3BD !important;
 }
 /*The breadcrumb (where it says "Home/Names den")*/
