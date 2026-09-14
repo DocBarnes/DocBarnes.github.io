@@ -1,1 +1,42 @@
+@media (min-width:601px) { /*PC layout*/
+body {
+background: url(https://img.magnific.com/premium-photo/purple-sound-wave-with-cityscape-background_845014-2515.jpg) center center fixed !important;
+background-repeat: none !important;
+background-size: fill !important;
+color: #F1E7FD;
+font-family: 'Bebas Neue', sans-serif;
+font-weight: 700 !important;
+font-variant: small-caps;
+
+}
+}
+
+@media (max-width: 600px) { /*mobile layout*/
+body {
+background: url(https://img.magnific.com/premium-photo/purple-sound-wave-with-cityscape-background_845014-2515.jpg) center center fixed !important;
+background-repeat: none !important;
+background-size: fill !important;
+color: #F1E7FD;
+font-family: 'Bebas Neue', sans-serif;
+font-weight: 700 !important;
+font-variant: small-caps;
+}
+}
+/*All above is for the background (pine pattern). The "color" prefix sets color of text*/
+
+.col-md-9.col-xs-12 {
+background: rgba(32, 5, 66, 0.95) !important; /*Your Darkness*/
+}
+/*Background of main page (where pride info is. Note that this sits on top of div.container.main)
+Does not contain boxes like div.container.main does*/
+
+div.container.main {
+background: url(https://img.magnific.com/premium-photo/purple-sound-wave-with-cityscape-background_845014-2515.jpg) center center fixed !important;
+background-repeat: none !important;
+background-size: cover !important;
+border: none !important;
+border-left: none !important;
+box-shadow: none !important;
+}
+/*behind the background. If this is not transparent, the base will not be transparent*/
 
