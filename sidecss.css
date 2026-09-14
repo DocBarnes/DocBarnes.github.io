@@ -74,3 +74,51 @@ color: #F1E7FD !important;
 color:#A04FDE !important;
 /*for the top bar. "li a" means text link color, and "li a:hover" means text when hovered over*/
 
+.navbar{
+background: #0E0324 !important;
+border: none !important;
+border-bottom: none !important;
+border-top: none !important;
+border-right: none !important;
+box-shadow: none !important;
+font-family: 'Bebas Neue', sans-serif;
+font-weight: 700 !important;
+font-variant: small-caps;
+}
+
+.navbar li a{
+color:#F1E7FD  !important;
+}
+
+.navbar li a:hover{
+color:#A04FDE !important;
+background: #0E0324 !important;
+}
+/*Navbar, nav text color, and nav hover color*/
+
+.breadcrumb{
+background: #0E0324!important;
+border: none !important;
+color: #F1E7FD !important;
+}
+
+.breadcrumb li a{
+color: #F1E7FD !important;
+}
+
+.breadcrumb li a:hover{
+color:#A04FDE !important;
+}
+.breadcrumb .active {
+color: #F1E7FD !important;
+}
+
+.breadcrumb::after {
+    content: "CSS by Foxx (#515050)" !important;
+    position: absolute;
+    right: 20%;
+    z-index: 100 !important;
+    color: #F1E7FD !important;
+}
+/*The breadcrumb (where it says "Home/Names den")*/
+
