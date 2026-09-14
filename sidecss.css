@@ -4,7 +4,6 @@ background: url(https://img.magnific.com/premium-photo/purple-sound-wave-with-ci
 background-repeat: no-repeat;
 background-size: cover;
 color: #F1E7FD !important;
-font-family: 'Bebas Neue' !important;
 }
 }
 
@@ -15,7 +14,6 @@ border-top: none !important;
 border-right: none !important;
 border-bottom :none !important;
 box-shadow:  none !important;
-font-family: 'Bebas Neue' !important;
 }
 /*Background of main page (where pride info is. Note that this sits on top of div.container.main)
 Does not contain boxes like div.container.main does*/
