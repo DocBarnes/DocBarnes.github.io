@@ -7,7 +7,6 @@ color: #F1E7FD;
 font-family: 'Bebas Neue', sans-serif;
 font-weight: 700 !important;
 font-variant: small-caps;
-box-shadow: 0 0 15px 15px #D727FC;
 }
 }
 
@@ -100,7 +99,7 @@ background: #0E0324 !important;
 
 .breadcrumb{
 background: #0E0324!important;
-border: none !important;
+border: 2px solid #8426CB !important;
 color: #F1E7FD !important;
 }
 
