@@ -7,17 +7,13 @@ color: #F1E7FD;
 font-family: 'Bebas Neue', sans-serif;
 font-weight: 700 !important;
 font-variant: small-caps;
+box-shadow: 0 0 15px 15px #D727FC;
 }
 }
 
 
 .col-md-9.col-xs-12 {
 background: #200542 !important; /*Tolopia*/
-border: none !important;
-border-top: none !important;
-border-right: none !important;
-border-bottom :none !important;
-box-shadow:  none !important;
 }
 /*Background of main page (where pride info is. Note that this sits on top of div.container.main)
 Does not contain boxes like div.container.main does*/
@@ -38,9 +34,8 @@ font-variant: small-caps;
 
 div.container.main {
 background: #200542!important;
-border: none !important;
-border-left: none !important;
-box-shadow: none !important;
+border: 2px solid #8426CB !important;
+border-top: none !important;
 }
 /*Behind the background. If this is not transparent, the base will not be transparent. Contains
 game info box, progress bar box, Achievements box, Bookmarks box, chat box, Game Stats box, and
@@ -53,6 +48,8 @@ border-top: none !important;
 border-bottom: none !important;
 box-shadow: none !important;
 color:#F1E7FD !important;
+border: 2px solid #8426CB !important;
+border-top: none !important;
 }
 .welcomeback a {
 color:#F1E7FD!important;
@@ -85,6 +82,10 @@ box-shadow: none !important;
 font-family: 'Bebas Neue', sans-serif;
 font-weight: 700 !important;
 font-variant: small-caps;
+border: 2px solid #8426CB !important;
+border-bottom: none !important;
+border-left: none !important;
+border-right:none !important;
 }
 
 .navbar li a{
