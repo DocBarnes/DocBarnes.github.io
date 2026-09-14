@@ -393,6 +393,37 @@ color: #E5E9E6 !important;
 .s-chat-message a:hover {
 color: #B9C3BD !important;
 }
+
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background:rgb(40, 71, 55) !important;}
+::-webkit-scrollbar-thumb {
+background: #B9C3BD !important; } 
+
+/*Scroll Bar*/
+
+/*IMPRESSION / ALL PROGRESS Bars
+Unless you color the progress bars below, all progress bars will default
+to the colors you put here.
+Bars will also inherit the border-radius value from this one, so it's
+not needed to specify border-radius for all bars. */
+.progress-bar {
+background: rgb(84, 108, 94) !important; 
+border-radius: 0px !important; }
+
+/* This is the text that reads Energy: X% */
+.progress div {
+color: #B9C3BD !important; }
+
+/* This is the background of the progress bars. */
+.progress {
+background:  #04150C;
+color: #B9C3BD !important;
+border-radius: 0px !important;  }
+
+
 /*Circular Lion/User Avatar: div#lion_image{
 border-radius: 50% !important;
 overflow: hidden;
