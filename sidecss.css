@@ -22,6 +22,20 @@ box-shadow:  none !important;
 /*Background of main page (where pride info is. Note that this sits on top of div.container.main)
 Does not contain boxes like div.container.main does*/
 
+@media (max-width: 768px) {
+body {
+background: url(https://img.magnific.com/premium-photo/purple-sound-wave-with-cityscape-background_845014-2515.jpg) center center fixed !important;
+background-repeat: no-repeat;
+background-size: cover;
+width: auto !important;
+min-width: 600px !important;
+color: #F1E7FD !important;
+font-family: 'Bebas Neue', sans-serif;
+font-weight: 700 !important;
+font-variant: small-caps;
+}
+}
+
 div.container.main {
 background: #200542!important;
 border: none !important;
@@ -31,3 +45,32 @@ box-shadow: none !important;
 /*Behind the background. If this is not transparent, the base will not be transparent. Contains
 game info box, progress bar box, Achievements box, Bookmarks box, chat box, Game Stats box, and
 Social Media box*/
+
+.topbar{
+background: #200542 !important;
+border: none !important;
+border-top: none !important;
+border-bottom: none !important;
+box-shadow: none !important;
+color:#F1E7FD !important;
+}
+.welcomeback a {
+color:#F1E7FD!important;
+}
+.welcomeback a:hover{
+color:#A04FDE !important;
+}
+center > .table .right > a {
+color: #F1E7FD !important;
+}
+center > .table .right > a:hover {
+color: #A04FDE !important;
+}
+.topbar li a{
+color: #F1E7FD !important;
+}
+
+.topbar li a:hover{
+color:#A04FDE !important;
+/*for the top bar. "li a" means text link color, and "li a:hover" means text when hovered over*/
+
