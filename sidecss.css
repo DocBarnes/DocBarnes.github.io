@@ -72,6 +72,7 @@ color: #F1E7FD !important;
 
 .topbar li a:hover{
 color:#A04FDE !important;
+}
 /*for the top bar. "li a" means text link color, and "li a:hover" means text when hovered over*/
 
 .navbar{
