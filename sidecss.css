@@ -1,0 +1,31 @@
+@media (min-width:768px) {
+body {
+background: url(https://img.magnific.com/premium-photo/purple-sound-wave-with-cityscape-background_845014-2515.jpg) center center fixed !important;
+background-repeat: no-repeat;
+background-size: cover;
+color: #F1E7FD !important;
+font-family: 'Bebas Neue' !important;
+}
+}
+
+.col-md-9.col-xs-12 {
+background: #200542 !important; /*Tolopia*/
+border: none !important;
+border-top: none !important;
+border-right: none !important;
+border-bottom :none !important;
+box-shadow:  none !important;
+font-family: 'Bebas Neue' !important;
+}
+/*Background of main page (where pride info is. Note that this sits on top of div.container.main)
+Does not contain boxes like div.container.main does*/
+
+div.container.main {
+background: #200542!important;
+border: none !important;
+border-left: none !important;
+box-shadow: none !important;
+}
+/*Behind the background. If this is not transparent, the base will not be transparent. Contains
+game info box, progress bar box, Achievements box, Bookmarks box, chat box, Game Stats box, and
+Social Media box*/
