@@ -3,9 +3,13 @@ body {
 background: url(https://img.magnific.com/premium-photo/purple-sound-wave-with-cityscape-background_845014-2515.jpg) center center fixed !important;
 background-repeat: no-repeat;
 background-size: cover;
-color: #F1E7FD !important;
+color: #F1E7FD;
+font-family: 'Bebas Neue', sans-serif;
+font-weight: 700 !important;
+font-variant: small-caps;
 }
 }
+
 
 .col-md-9.col-xs-12 {
 background: #200542 !important; /*Tolopia*/
